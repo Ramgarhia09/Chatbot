@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(42, 134, 221, 0);
+       }
+    body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 10em 10em;
+    opacity: 0.5;
+    background: url("bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+    opacity: 200%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+    .CHATT {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    color: #000;
+    border-radius: 9px;
+    backdrop-filter: blur(50px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height: 1.5;
+    
+    }
+
+    .CHATT h1 {
+        color: rgb(247, 153, 76);
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: double;
+    }
+    .CHATT h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    }
+    .input {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 40px;
+    }
+    
+input:hover{
+    color: rgb(16, 16, 81);
+}
+    
+    .input input {
+    width: 100%;
+    height: 70px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 0;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    }
+    .CHATT p {
+    font-size: 1.6rem;
+    margin-top: 30px;
+    }
